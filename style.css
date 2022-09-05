@@ -47,9 +47,9 @@ body {
   .card:hover .card-side.back {
     transform: rotateY(0deg);
   }
-  .space{
+  /* .space{
     color: black;
-  }
+  } */
 
 
   /*Card 2*/
