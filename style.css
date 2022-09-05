@@ -3,8 +3,8 @@ body {
   margin: 0px auto;
   padding: 0px;
   background: url(Assets/background.png);
-
-
+  font-family: 'Roboto Slab', serif;
+font-size: 14px;
 }
 .card {
     perspective: 150rem;
@@ -14,6 +14,7 @@ body {
     margin: 175px 27px;
     box-shadow: none;
     background: none;
+    font-family: 'Roboto Slab', serif;
   }
   
   .card-side {
@@ -42,10 +43,12 @@ body {
   
   .card:hover .card-side.front {
     transform: rotateY(180deg);
+    
   }
   
   .card:hover .card-side.back {
     transform: rotateY(0deg);
+    color: bisque;
   }
   /* .space{
     color: black;
@@ -94,6 +97,7 @@ body {
   
   .card2:hover .card2-side2.back {
     transform: rotateY(0deg);
+    color: bisque;
   }
 
   /*Card 3*/
@@ -124,6 +128,7 @@ body {
     transform: rotateY(-180deg);
     background-color: #4158D0;
     background-image: url(Assets/madara.jpg);
+
   }
   
   .card3-side3.front {
@@ -137,6 +142,7 @@ body {
   
   .card3:hover .card3-side3.back {
     transform: rotateY(0deg);
+    color: bisque;
   }
   
 
@@ -182,6 +188,7 @@ body {
   
   .card4:hover .card4-side4.back {
     transform: rotateY(0deg);
+    color: bisque;
   }
  
 
