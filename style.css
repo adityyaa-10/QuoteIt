@@ -11,7 +11,7 @@ font-size: 14px;
     position: relative;
     height: 671px;
     width: 342px;
-    margin: 175px 27px;
+    margin: -66px 27px;
     box-shadow: none;
     background: none;
     font-family: 'Roboto Slab', serif;
@@ -62,7 +62,7 @@ font-size: 14px;
     position: relative;
     height: 671px;
     width: 342px;
-    margin: -845px 402px;
+    margin: -673px 402px;
     box-shadow: none;
     background: none;
   }
@@ -106,7 +106,7 @@ font-size: 14px;
     position: relative;
     height: 671px;
     width: 342px;
-    margin: 174px 781px;
+    margin: 3px 781px;
     box-shadow: none;
     background: none;
   }
@@ -153,7 +153,7 @@ font-size: 14px;
     position: relative;
     height: 671px;
     width: 342px;
-    margin: -844px 1154px;
+    margin: -675px 1154px;
     box-shadow: none;
     background: none;
   }
@@ -190,6 +190,15 @@ font-size: 14px;
     transform: rotateY(0deg);
     color: bisque;
   }
- 
-
-  
+ h1{
+  text-align: center;
+  color: rgb(37, 38, 39);
+  font-size: 100px;
+  margin-top: 1px;
+  /* text-shadow: 3px rgb(82, 96, 107); */
+  font-family: 'Roboto Slab', serif;
+}
+/* h1:hover{
+  color: rgb(55, 255, 29);
+  text-decoration: solid;
+} */
