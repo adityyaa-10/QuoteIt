@@ -1,29 +1,33 @@
-body {
 
-  margin: 0px auto;
-  padding: 0px;
+body {
   background: url(Assets/background.png);
   font-family: 'Roboto Slab', serif;
-font-size: 14px;
+  font-size: 14px;
+ }
+.res{
+  display: flex;
+  flex-direction: row;
+  padding-left: 0.5%;
+  padding-top: 0.5%;
 }
+
 .card {
     perspective: 150rem;
     position: relative;
-    height: 671px;
-    width: 342px;
-    margin: -66px 27px;
+    flex: 20%;
     box-shadow: none;
     background: none;
     font-family: 'Roboto Slab', serif;
   }
   
   .card-side {
-    height: 35rem;
+    height: 32rem;
     border-radius: 15px;
     transition: all 0.8s ease;
     backface-visibility: hidden;
     position: absolute;
     top: 0;
+    flex: 20%;
     left: 0;
     width: 80%;
     padding:2rem;
@@ -50,26 +54,22 @@ font-size: 14px;
     transform: rotateY(0deg);
     color: bisque;
   }
-  /* .space{
-    color: black;
-  } */
-
 
   /*Card 2*/
 
   .card2 {
     perspective: 150rem;
     position: relative;
-    height: 671px;
-    width: 342px;
-    margin: -673px 402px;
+    margin-left: 0.5%;
+    flex: 20%;
     box-shadow: none;
     background: none;
   }
   
   .card2-side2 {
-    height: 35rem;
+    height: 32rem;
     border-radius: 15px;
+    flex: 20%;
     transition: all 0.8s ease;
     backface-visibility: hidden;
     position: absolute;
@@ -104,15 +104,15 @@ font-size: 14px;
   .card3 {
     perspective: 150rem;
     position: relative;
-    height: 671px;
-    width: 342px;
-    margin: 3px 781px;
+    flex: 20%;
+    margin-left: 0.5%;
     box-shadow: none;
     background: none;
   }
   
   .card3-side3 {
-    height: 35rem;
+    height: 32rem;
+    flex: 20%;
     border-radius: 15px;
     transition: all 0.8s ease;
     backface-visibility: hidden;
@@ -151,20 +151,20 @@ font-size: 14px;
   .card4 {
     perspective: 150rem;
     position: relative;
-    height: 671px;
-    width: 342px;
-    margin: -675px 1154px;
+    margin-left: 0.5%;
+    flex: 20%;
     box-shadow: none;
     background: none;
   }
   
   .card4-side4 {
-    height: 35rem;
+    height: 32rem;
     border-radius: 15px;
     transition: all 0.8s ease;
     backface-visibility: hidden;
     position: absolute;
     top: 0;
+    flex: 20%;
     left: 0;
     width: 80%;
     padding:2rem;
@@ -195,10 +195,14 @@ font-size: 14px;
   color: rgb(37, 38, 39);
   font-size: 100px;
   margin-top: -18px;
-  /* text-shadow: 3px rgb(82, 96, 107); */
+  margin-bottom: 0%;
   font-family: 'Roboto Slab', serif;
 }
-/* h1:hover{
-  color: rgb(55, 255, 29);
-  text-decoration: solid;
-} */
+@media(max-width:390px){  
+  
+  .res{
+    flex-direction: column;
+  }
+
+
+} 
