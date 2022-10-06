@@ -9,20 +9,20 @@
 ### SSH  [Github Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
 ```bash
-$ git clone git@github.com:adityyaa-10/Dummy-Gym-Website.git
+$ git clone git@github.com:adityyaa-10/Quotes-In-Naruto.git
 ```
 
 
 ### GitHub CLI
 
 ```bash
-$ gh repo clone adityyaa-10/Dummy-Gym-Website
+$ gh repo clone adityyaa-10/Quotes-In-Naruto
 ```
 
 ### HTTPS
 
 ```bash
-$ git clone https://github.com/adityyaa-10/Dummy-Gym-Website.git
+$ git clone https://github.com/adityyaa-10/Quotes-In-Naruto.git
 ```
 
 **4.** Create a new working branch 
@@ -35,7 +35,7 @@ $ git checkout -b [your_branch_name]
 **5.** Navigate to the new project directory:
 
 ```bash
-cd Dummy-Gym-Website
+cd Quotes-In-Naruto
 ```
 
 **6.** Make the changes in any IDE of your preference
