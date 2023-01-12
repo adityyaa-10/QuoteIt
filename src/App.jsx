@@ -3,6 +3,7 @@ import Home from './components/Home';
 import Characters from './components/Characters';
 import Navbar from './components/Navbar';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import 'animate.css';
 
 const App = () => (
   <BrowserRouter>
