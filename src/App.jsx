@@ -2,15 +2,14 @@ import React from 'react'
 import Home from './components/Home';
 import Characters from './components/Characters';
 import Navbar from './components/Navbar';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => (
-  <div className='bg-[#0d1117] text-[#ffffff]'>
-    <Navbar />
-
-    <Home />
-    <Characters/>
-  </div>
-
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />}></Route>
+    </Routes>
+  </BrowserRouter>
 );
 
 export default App
